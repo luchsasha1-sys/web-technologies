@@ -1,0 +1,55 @@
+/* Встановлюємо шрифт Arial для всього документу */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Оформлення заголовку h1 */
+#title {
+    color: red;
+    font-size: 2em;
+}
+
+/* Стиль для заголовку h2 */
+.section-title {
+    font-style: italic;
+}
+
+/* Стиль для кожного абзацу з продуктами */
+.product {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+/* Стиль для елементу з підкресленим текстом */
+.product u {
+    text-decoration: underline;
+}
+
+/* Перекреслений текст для масла */
+.product s {
+    text-decoration: line-through;
+}
+
+/* Оформлення мітки для цукру */
+.highlight {
+    background-color: yellow;
+}
+
+/* Стиль для цитати */
+.quote {
+    font-style: italic;
+    font-size: 1.1em;
+}
+
+/* Оформлення горизонтальної лінії */
+hr {
+    margin: 20px 0;
+}
+
+/* Встановлюємо маркери та відступи для списків (якщо вони будуть додані) */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
